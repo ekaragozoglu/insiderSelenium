@@ -36,13 +36,15 @@ This project follows the Page Object Model (POM) design pattern, which helps to 
 ## How to Run the Project
 
 1. **Clone the Repository**:
+- git clone git@github.com:ekaragozoglu/insiderSelenium.git
 
-2. **Install Dependencies**:
+2. **Check POM.xml**:
    Make sure you have Maven installed. Run the following command to install all dependencies:
 
 3. **Run the Tests**:
-   To execute the test cases, use the following Maven command:
-
+    ```chmod +x run_tests.sh
+    ./run_tests.sh
+    ```
 4. **Reporting**:
    Test reports can be generated using Maven and can be viewed after the tests are executed.
 
@@ -50,8 +52,3 @@ This project follows the Page Object Model (POM) design pattern, which helps to 
 - **Cross-Browser Testing**: The project supports both Chrome and Firefox browsers.
 - **Dynamic Element Handling**: The project uses various dynamic wait methods (like `WebDriverWait` and JavaScript execution) to ensure elements are interacted with at the right time.
 - **Cookie Management**: The project handles cookie consent using a method to automatically accept cookies on the website.
-
-5. **sh**: Also you can run the tests using the following command:
-    ```chmod +x run_tests.sh
-    ./run_tests.sh
-    ```
